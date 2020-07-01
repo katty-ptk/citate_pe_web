@@ -1,0 +1,66 @@
+* {
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  height: 10%;
+}
+
+body {
+  background: rgb(174, 238, 181);
+  background: radial-gradient(
+    circle,
+    rgba(174, 238, 181, 1) 0%,
+    rgba(233, 148, 148, 1) 100%
+  );
+  overflow: hidden;
+}
+
+#quote-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-family: Times, serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+p {
+  font-style: italic;
+}
+
+/* QUOTES BUTTON */
+#mySideBtn button {
+  position: absolute; /* Position them relative to the browser window */
+  top: 25px;
+  right: -93px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  background-color: rgb(70, 69, 69);
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySideBtn button:hover {
+  right: 0;
+}
+
+/* QUOTES LIST
+
+#quotesDiv {
+  top: 15%;
+  position: absolute;
+  right: 2%;
+  /* visibility: hidden;   
+} */
+
+/* .quotes-ul li {
+  /* visibility: hidden; 
+  font-weight: bold;
+  font-size: 20px;
+} 
+*/
