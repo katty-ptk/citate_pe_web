@@ -51,37 +51,4 @@ quote_container.appendChild(quote_p); // appends the paragraph to the div
 quote_p.textContent += randomQuote; // appends the quote to the paragraph
 quote_p.setAttribute("id", "quoteId"); // adds id to main quote
 
-//
-//
 
-// quotesDiv.style.display = "none";
-
-// // ALL QUOTES
-// var quotesUl = document.createElement('ul'); // creates ul element for the quotes which are lis
-// quotesUl.classList.add('quotes-ul'); // adds class to ul
-// quotesDiv.appendChild(quotesUl); // the new ul becomes child of the div
-
-// for (var i = 0; i < quotes.length; i++) {
-//     quotesUl.innerHTML += "<li class='quotes-class'>" + quotes[i] + "</li><br><br>";
-// } // for each element from the quotes array, a new li with the "quotes-class" class is created and added to the created ul
-
-// // quotesLis.visibility = "hidden";
-
-// quotesBtn.addEventListener('click', function quotesAppear(e) { // when the Quotes button is clicked, the quotesAppear() function will be executed
-//     e.preventDefault();
-
-//     if (quotesLis.visibility === "hidden") { // if the lis have the visibility hidden
-//         for (var j = 0; j < quotesLis.length; j++) { // for each element from the quotes array
-//             quotesLis[j].visibility = 'visible'; // the visibility is becoming visible
-//         }
-//         quotesBtn.right = "0px"; // and the button is blocked on the screen
-//         alert('visibility is visible');
-//     } else { // else, so if the lis are visible
-//         for (var k = 0; k < quotesLis.length; k++) { // for each element from the array
-//             quotesLis[k].visibility = 'hidden'; // the visibility will become hidden
-//         }
-
-//         alert('visibility is hidden');
-//     }
-
-// });
